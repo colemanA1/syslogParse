@@ -1,0 +1,20 @@
+apr 29 08:22:13 mac-users-macbook-8 syslogd[49]: asl sender statistics
+apr 29 08:22:17 mac-users-macbook-8 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.system):
+service "com.apple.emond.aslmanager" tried to hijack endpoint "com.apple.aslmanager" from owner:
+com.apple.aslmanager
+apr 29 08:22:17 mac-users-macbook-8 com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.system):
+service "com.apple.emond.aslmanager" tried to hijack endpoint
+"com.apple.activity_tracing.cache-delete" from owner: com.apple.aslmanager
+apr 29 08:22:17 mac-users-macbook-8 com.apple.xpc.launchd[1] (com.apple.bsd.dirhelper[14184]):
+endpoint has been activated through legacy launch(3) apis. please switch to xpc or
+bootstrap_check_in(): com.apple.bsd.dirhelper
+apr 29 08:22:19 mac-users-macbook-8 com.apple.xpc.launchd[1]
+(com.apple.imfoundation.imremoteurlconnectionagent): unknown key for integer:
+_dirtyjetsammemorylimit
+apr 29 08:22:26 --- last message repeated 1 time ---
+apr 29 08:22:26 mac-users-macbook-8 com.apple.xpc.launchd[1]
+(com.apple.xpc.launchd.domain.pid.idecachedeleteappextension.14212): path not allowed in target
+domain: type = pid, path =
+/applications/xcode.app/contents/sharedframeworks/lldb.framework/versions/a/xpcservices/rootdebuggingxpcservice.xpc
+error = 147: the specified service did not ship in the requestor's bundle, origin =
+
